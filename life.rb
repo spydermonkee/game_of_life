@@ -7,7 +7,7 @@ require 'pry'
 class Board
 
   ALIVE = "*"
-  DEAD = "."
+  DEAD = " "
 
   def initialize(width, height)
     @width = width
